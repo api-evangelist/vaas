@@ -1,0 +1,27 @@
+# Vaas
+
+> Vaas is a Colombian fintech building debt infrastructure for Latin America — a platform that automates asset-backed debt facilities for originators, lenders, and debt providers, with autonomous asset verification, payment reconciliation, and real-time collateral ownership enforcement for private credit. Backed by Andreessen Horowitz (a16z).
+
+Vaas ("public rails for private credit") verifies that financed assets exist (documents in, structured data out), reconciles every transfer to the rightful holder end to end, and enforces who owns what and when so assets can never be pledged twice. Customers include fintech originators, asset managers, and private equity debt providers; Addi is a named customer. Vaas does not currently publish a public developer portal, API documentation, or machine-readable API specifications.
+
+## Company
+
+- [Website](https://www.getvaas.com/en/): Debt infrastructure for LatAm — automated asset-backed debt facilities
+- [About Us](https://www.getvaas.com/en/about-us): Company background
+- [Blog / Discover](https://www.getvaas.com/en/discover): FinCaps, All you can debt podcast, and product/tech posts
+- [Careers](https://www.getvaas.com/en/careers): Open roles
+- [Privacy Policy](https://www.getvaas.com/privacy-policy): Privacy policy
+- [PQR](https://www.getvaas.com/pqr): Peticiones, quejas y reclamos (customer requests and complaints)
+- [GitHub](https://github.com/getvaas): getvaas organization (no public API artifacts)
+- [LinkedIn](https://www.linkedin.com/company/get-vaas/): Company profile
+
+## Product
+
+- Documents: autonomous verification of asset documentation — evidence an asset is authentic, valid, and ready to move
+- Cash flow: payment reconciliation with full traceability, delivered to the rightful holder
+- Ownership: real-time enforcement of collateral rights so assets cannot be double-pledged
+- Demos: [Waiver management](https://www.getvaas.com/en/demo/waivers), [Reconciliation event](https://www.getvaas.com/en/demo/reconciliation)
+
+## APIs
+
+- No public API, developer documentation, or OpenAPI/AsyncAPI specifications are published as of 2026-07-21.

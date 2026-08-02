@@ -1,8 +1,25 @@
 aid: vaas
 name: Vaas
-description: Vaas is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vaas is a Colombian fintech building debt infrastructure for Latin America,
+  operating a platform that automates asset-backed debt facilities for originators,
+  asset managers, and debt providers across industries. Vaas autonomously verifies
+  asset documentation, reconciles cash flows end to end, and enforces collateral
+  ownership in real time so assets cannot be pledged twice, bringing liquidity and
+  transparency to private credit. Backed by Andreessen Horowitz (a16z). Vaas does
+  not currently publish a public API or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/vaas/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://getvaas.com/logos/ImagenShare.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +28,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Private Credit
+- Debt Infrastructure
+- Asset-Backed Lending
+- Verification
+- Payment Reconciliation
+- Capital Markets
+- Latin America
+- Colombia
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vaas-domain-security.yml
+- type: Website
+  url: https://www.getvaas.com/en/
+- type: Blog
+  url: https://www.getvaas.com/en/discover
+- type: PrivacyPolicy
+  url: https://www.getvaas.com/privacy-policy
+- type: Support
+  url: https://www.getvaas.com/pqr
+- type: GitHubOrganization
+  url: https://github.com/getvaas
+- type: LLMsTxt
+  url: llms/vaas-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

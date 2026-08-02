@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of getvaas.com / www.getvaas.com
+host: https://www.getvaas.com
+notes: getvaas.com 302-redirects all paths to www.getvaas.com; no /.well-known/
+  discovery documents are published. No docs/api/developer subdomains resolve
+  (docs.getvaas.com, api.getvaas.com, developers.getvaas.com, developer.getvaas.com,
+  dev.getvaas.com, status.getvaas.com, trust.getvaas.com, security.getvaas.com all NXDOMAIN).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
