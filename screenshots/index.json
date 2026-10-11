@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "vaas",
+    "captured_at": "2026-10-11T194223",
+    "source_url": "https://www.getvaas.com/en/",
+    "source_type": "Website",
+    "file": "vaas-2026-10-11T194223.png",
+    "bytes": 549030,
+    "capture": "playwright-local"
+  }
+]
